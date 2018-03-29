@@ -18,3 +18,4 @@ def sek(iter):
 
 kolvo = int(input("Укажите количество итераций - "))
 sek(kolvo)
+#test end
