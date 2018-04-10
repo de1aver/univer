@@ -1,8 +1,9 @@
 def fx(x):
-    return 3 * x ** 2 - (7/x)
+    return x*x*x + 8*x*x + x +5
+
 
 def fx1(x):
-    return 6 * x - (7/x ** 2)
+    return 3*x*x + 16*x + 1
 
 def cas(iter):
     x1 = float(input("Введите x1 - "))
