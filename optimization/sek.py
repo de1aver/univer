@@ -1,6 +1,9 @@
 def fx(x):
     return 3 * x ** 2 - (7/x)
 
+def tmp():
+    pass
+
 def fx1(x):
     return 6 * x - (7/x ** 2)
 
