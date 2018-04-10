@@ -35,3 +35,4 @@ def midle_int(iter):
 
 kolvo = int(input("Введите количество итераций "))
 midle_int(kolvo)
+####
