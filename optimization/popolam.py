@@ -1,10 +1,14 @@
 import math
 
 def fx(x):
-    return 3 * x ** 2 - (7/x)
+    return x*x*x + 8*x*x + x +5
 
 def midle(a,b):
     return b - a
+
+def value_func(a,b):
+    x_avg = (b - a) / 2
+    return fx(x_avg)
 
 def midle_int(iter):
     a = int(input("Левая граница интервала -  "))
@@ -26,6 +30,7 @@ def midle_int(iter):
                 b = x2
                 midle(a, b)
         print(x1, " ", x2)
+        print(value_func(x1, x2))
     return midle(a,b)
 
 kolvo = int(input("Введите количество итераций "))
