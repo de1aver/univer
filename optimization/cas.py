@@ -3,10 +3,6 @@ import math
 def fx(x):
     return x*x*x + 8*x*x + x +5
 
-def tmp:
-    pass
-
-
 def fx1(x):
     return 3*x*x + 16*x + 1
 
