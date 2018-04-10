@@ -1,3 +1,6 @@
+class Temp:
+    pass
+
 def fx(x):
     return 3 * x ** 2 - (7/x)
 
